@@ -1,0 +1,22 @@
+@font-face {
+    font-family: JetBrainsMono-NerdFont;
+    src: url(fonts/JetBrainsMonoNerdFont-Regular.ttf);
+}
+
+html {
+    font-family: JetBrainsMono-NerdFont;
+    background-color: rgb(29, 28, 46);
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.colorgray {
+    color: rgb(173, 173, 173)
+}

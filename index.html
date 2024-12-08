@@ -1,17 +1,34 @@
 <!DOCTYPE html>
+<html>
 <link rel="stylesheet" href="homepage/main.css">
 <header>
     <title>Arthur Carrell</title>
 </header>
 <main>
-    <p class="homepage-text">Arthur Carrell</p>
+    <p id="homepage_text">Arthur Carrell</p>
 </main>
 
-<div id="mainpage" class="glass"><br>
-    <a>About Me</a><br>
+<!-- Homepage -->
+<div id="mainpagelinks" class="glass"><br>
+    <a onclick="switchTab('about me')">About Me</a><br>
     <a>Games</a><br>
     <a>Nerd Corner</a><br>
     <a>Miscellanous Stuff</a><br>
 <br></div>
 
+<!-- About me tab-->
+<div id="aboutme" class="glass" hidden="true">
+    <p>Hello, I'm Arthur!</p>
+    <p>I am <span id="exactage">[exactage]</span> old.</p>
+    <p>(insert image here)</p>
+    <p>As of 2024, Im currently doing my A-levels, as for what they are, I am doing History, Politics and my favorite, Computer Science.
+        I have always had an interest in computers since I was very little, and became addicted to programming when I discovered Scratch.
+    </p>
+    <a href="https://github.com/arthurcarrell"><img src="homepage/images/github.png" style="width: 8%"></a><br>
+    <br><div id="back" class="glass" onclick="switchTab('home')">Back</div>
+<br></div>
 <footer class="image-credits">picture taken by: <a href="https://www.instagram.com/nickwanders91/" style="color: inherit;">@nickwanders91</a></footer>
+
+<script src="homepage/js/exactage.js"></script>
+<script src="homepage/js/main.js" defer></script>
+</html>

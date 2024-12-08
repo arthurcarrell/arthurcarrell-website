@@ -31,7 +31,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.homepage-text { /* This is the big ARTHUR CARRELL */
+#homepage_text { /* This is the big ARTHUR CARRELL */
     font-family: PromptTitle;
     font-size: 400%;
     text-align: center;
